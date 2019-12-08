@@ -1,4 +1,4 @@
-# FiiPracticReact
+# Proiect dezvoltat de la un proiect FiiPracticReact
 
 EventHooks: an application which helps you to promote or find events
 
