@@ -1,0 +1,43 @@
+.userListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content:space-between;
+    width: 100%;
+  }
+  .currentUser {
+    width: 100%;
+    height: 7%;
+    display: none;
+    position: relative;
+    margin-left: 5px;
+  }
+  .showActiveUser {
+    display: inline-block;
+  }
+  .collapsUserList{
+    height: 80%;
+    transition: height 1s;
+  }
+  .allEventsButton {
+    width:100%;
+    height: 100%;
+    cursor:pointer;
+  }
+  .allEventsButton:hover {
+    filter:hue-rotate(90deg);
+  }
+  .user-list-container-overflow {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 5px;
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0px 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
