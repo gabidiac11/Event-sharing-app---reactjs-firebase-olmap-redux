@@ -16,6 +16,5 @@ Technology stack:
 - Semantic-UI
 - Open Layers
 - Rest Api: "Here"
-- Firebase
+- Firebase ( auth, database, storage )
 
-# proiectfiipractic
